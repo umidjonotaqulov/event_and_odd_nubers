@@ -6,7 +6,7 @@
 
 #Find the sum of the odd digits in the variable "var_int".
 
-var_int=5678
+var_int=1122
 
 x1=var_int%10
 x1=(x1%2)*x1
