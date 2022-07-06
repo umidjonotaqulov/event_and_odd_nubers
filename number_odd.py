@@ -3,3 +3,14 @@
 #Create a variable "var_int" and assign it a four-digit integer value.
 
 #Print the number of odd digits in the variable "var_int".
+
+var_int=4567
+x1=var_int%10
+x1%=2
+x2=var_int%100//10
+x2%=2
+x3=var_int%1000//100
+x3%=2
+x4=var_int//1000
+x4%=2
+print(x1+x2+x3+x4)
