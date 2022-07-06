@@ -20,6 +20,6 @@ x3=(x3%2)*x3
 x4=var_int//1000
 x4=(x4%2)*x4
 
-sum_odd=0
+sum_odd=x1+x2+x3+x4
 
-print(x1+x2+x3+x4)
+print(sum_odd)
